@@ -1,0 +1,603 @@
+
+body
+{
+    background-color: black;
+}
+
+#logo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fill 2s ease forwards 3s;
+    width: 1000px;
+    height: 200px;
+}
+
+#logo path:nth-child(1)
+{
+    stroke-dasharray: 471.9299621582031px;
+    stroke-dashoffset: 471.9299621582031px;
+    animation: line-anim 1s ease forwards;
+}
+#logo path:nth-child(2)
+{
+    stroke-dasharray: 133.69493103027344px;
+    stroke-dashoffset: 133.69493103027344px;
+    animation: line-anim 1s  ease forwards 0.12s;
+}
+#logo path:nth-child(3)
+{
+    stroke-dasharray: 245.15155029296875px;
+    stroke-dashoffset: 245.15155029296875px;
+    animation: line-anim 1s  ease forwards 0.24s;
+}
+#logo path:nth-child(4)
+{
+    stroke-dasharray: 152.51434326171875px;
+    stroke-dashoffset: 152.51434326171875px;
+    animation: line-anim 1s ease forwards 0.36s;
+}
+#logo path:nth-child(5)
+{
+    stroke-dasharray: 149.86441040039062px;
+    stroke-dashoffset: 149.86441040039062px;
+    animation: line-anim 1s ease forwards 0.48s;
+}   
+#logo path:nth-child(6)
+{
+    stroke-dasharray: 159.71539306640625px;
+    stroke-dashoffset: 159.71539306640625px;
+    animation: line-anim 1s ease forwards 0.6s;
+}
+#logo path:nth-child(7)
+{
+    stroke-dasharray: 283.4854736328125px;
+    stroke-dashoffset: 283.4854736328125px;
+    animation: line-anim 1s ease forwards 0.72s;
+}
+#logo path:nth-child(8)
+{
+    stroke-dasharray: 299.7349853515625px;
+    stroke-dashoffset: 299.7349853515625px;
+    animation: line-anim 1s ease forwards 0.84s;
+}
+#logo path:nth-child(9)
+{
+    stroke-dasharray: 149.8646697998047px;
+    stroke-dashoffset: 149.8646697998047px;
+    animation: line-anim 1s ease forwards 0.96s;
+}
+#logo path:nth-child(10)
+{
+    stroke-dasharray: 141.87254333496094px;
+    stroke-dashoffset: 141.87254333496094px;
+    animation: line-anim 1s ease forwards 1.08s;
+}
+#logo path:nth-child(11)
+{
+    stroke-dasharray: 239.2947235107422px;
+    stroke-dashoffset: 239.2947235107422px;
+    animation: line-anim 1s ease forwards 1.2s;
+}
+#logo path:nth-child(12)
+{
+    stroke-dasharray: 133.69570922851562px;
+    stroke-dashoffset: 133.69570922851562px;
+    animation: line-anim 1s ease forwards 1.32s;
+}
+#logo path:nth-child(13)
+{
+    stroke-dasharray: 188.94668579101562px;
+    stroke-dashoffset: 188.94668579101562px;
+    animation: line-anim 1s ease forwards 1.44s;
+}
+#logo path:nth-child(14)
+{
+    stroke-dasharray: 251.0332794189453px;
+    stroke-dashoffset: 251.0332794189453px;
+    animation: line-anim 1s ease forwards 1.56s;
+}
+#logo path:nth-child(15)
+{
+    stroke-dasharray: 426.6991882324219px;
+    stroke-dashoffset: 426.6991882324219px;
+    animation: line-anim 1s ease forwards 1.68s;
+}
+#logo path:nth-child(16)
+{
+    stroke-dasharray: 149.86485290527344px;
+    stroke-dashoffset: 149.86485290527344px;
+    animation: line-anim 1s ease forwards 1.8s;
+}
+#logo path:nth-child(17)
+{
+    stroke-dasharray: 149.8648681640625px;
+    stroke-dashoffset: 149.8648681640625px;
+    animation: line-anim 1s ease forwards 1.92s;
+}
+#logo path:nth-child(18)
+{
+    stroke-dasharray: 303.0686340332031px;
+    stroke-dashoffset: 303.0686340332031px;
+    animation: line-anim 1s ease forwards 2.04s;
+}
+#logo path:nth-child(19)
+{
+    stroke-dasharray: 124.5174331665039px;
+    stroke-dashoffset: 124.5174331665039px;
+    animation: line-anim 1s ease forwards 2.16s;
+}
+
+@keyframes line-anim
+{
+    to 
+    {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill 
+{
+    from 
+    {
+        fill: transparent;
+    }
+    to 
+    {
+        fill: transparent;
+    }
+}
+
+
+@keyframes loader {
+    0% 
+    {
+      width: 0%;
+    }
+    1% 
+    {
+      width: 1%;
+    }
+    2% 
+    {
+      width: 2%;
+    }
+    3% 
+    {
+      width: 3%;
+    }
+    4% 
+    {
+      width: 4%;
+    }
+    5% 
+    {
+      width: 5%;
+    }
+    6% 
+    {
+      width: 6%;
+    }
+    7% 
+    {
+      width: 7%;
+    }
+    8% 
+    {
+      width: 8%;
+    }
+    9% 
+    {
+      width: 9%;
+    }
+    10% 
+    {
+      width: 10%;
+    }
+    11% 
+    {
+      width: 11%;
+    }
+    12% 
+    {
+      width: 12%;
+    }
+    13% 
+    {
+      width: 13%;
+    }
+    12% 
+    {
+      width: 12%;
+    }
+    13% 
+    {
+      width: 13%;
+    }
+    14% 
+    {
+      width: 14%;
+    }
+    15% 
+    {
+      width: 15%;
+    }
+    16% 
+    {
+      width: 16%;
+    }
+    17% 
+    {
+      width: 17%;
+    }
+    18% 
+    {
+      width: 18%;
+    }
+    19% 
+    {
+      width: 19%;
+    }
+    20% 
+    {
+      width: 20%;
+    }
+    21% 
+    {
+      width: 21%;
+    }
+    22% 
+    {
+      width: 22%;
+    }
+    23% 
+    {
+      width: 23%;
+    }
+    24% 
+    {
+      width: 24%;
+    }
+    25% 
+    {
+      width: 25%;
+    }
+    26% 
+    {
+      width: 26%;
+    }
+    27% 
+    {
+      width: 27%;
+    }
+    28% 
+    {
+      width: 28%;
+    }
+    29% 
+    {
+      width: 29%;
+    }
+    30% 
+    {
+      width: 30%;
+    }
+    31% 
+    {
+      width: 31%;
+    }
+    32% 
+    {
+      width: 32%;
+    }
+    33% 
+    {
+      width: 33%;
+    }
+    34% 
+    {
+      width: 34%;
+    }
+    35% 
+    {
+      width: 35%;
+    }
+    36% 
+    {
+      width: 36%;
+    }
+    37% 
+    {
+      width: 37%;
+    }
+    38% 
+    {
+      width: 38%;
+    }
+    39% 
+    {
+      width: 39%;
+    }
+    40% 
+    {
+      width: 40%;
+    }
+    41% 
+    {
+      width: 41%;
+    }
+    42% 
+    {
+      width: 42%;
+    }
+    43% 
+    {
+      width: 43%;
+    }
+    44% 
+    {
+      width: 44%;
+    }
+    45% 
+    {
+      width: 45%;
+    }
+    46% 
+    {
+      width: 46%;
+    }
+    47% 
+    {
+      width: 47%;
+    }
+    48% 
+    {
+      width: 48%;
+    }
+    49% 
+    {
+      width: 49%;
+    }
+    50% 
+    {
+      width: 50%;
+    }
+    51% 
+    {
+      width: 51%;
+    }
+    52% 
+    {
+      width: 52%;
+    }
+    53% 
+    {
+      width: 53%;
+    }
+    54% 
+    {
+      width: 54%;
+    }
+    55% 
+    {
+      width: 55%;
+    }
+    56% 
+    {
+      width: 56%;
+    }
+    57% 
+    {
+      width: 57%;
+    }
+    58% 
+    {
+      width: 58%;
+    }
+    59% 
+    {
+      width: 59%;
+    }
+    60% 
+    {
+      width: 60%;
+    }
+    61% 
+    {
+      width: 61%;
+    }
+    62% 
+    {
+      width: 62%;
+    }
+    63% 
+    {
+      width: 63%;
+    }
+    64% 
+    {
+      width: 64%;
+    }
+    65% 
+    {
+      width: 65%;
+    }
+    66% 
+    {
+      width: 66%;
+    }
+    67% 
+    {
+      width: 67%;
+    }
+    68% 
+    {
+      width: 68%;
+    }
+    69% 
+    {
+      width: 69%;
+    }
+    70% 
+    {
+      width: 70%;
+    }
+    71% 
+    {
+      width: 71% ;
+    }
+    72% 
+    {
+      width: 72% ;
+    }
+    73% 
+    {
+      width: 73%;
+    }
+    74% 
+    {
+      width: 74%;
+    }
+    75% 
+    {
+      width: 75%;
+    }
+    76% 
+    {
+      width: 76%;
+    }
+    77% 
+    {
+      width: 77%;
+    }
+    78% 
+    {
+      width: 78%;
+    }
+    79% 
+    {
+      width: 79% ;
+    }
+    80% 
+    {
+      width: 80%;
+    }
+    81% 
+    {
+      width: 81%;
+    }
+    82% 
+    {
+      width: 82%;
+    }
+    83% 
+    {
+      width: 83%;
+    }
+    84% 
+    {
+      width: 84%;
+    }
+    85% 
+    {
+      width: 85%;
+    }
+    86% 
+    {
+      width: 86%;
+    }
+    87% 
+    {
+      width: 87%;
+    }
+    88% 
+    {
+      width: 88%;
+    }
+    89% 
+    {
+      width: 89%;
+    }
+    90% 
+    {
+      width: 90% ;
+    }
+    91% 
+    {
+      width: 91% ;
+    }
+    92% 
+    {
+      width: 92% ;
+    }
+    93% 
+    {
+      width: 93% ;
+    }
+    94% 
+    {
+      width: 94%;
+    }
+    95% 
+    {
+      width: 95% ;
+    }
+    96% 
+    {
+      width: 96% ;
+    }
+    97% 
+    {
+      width: 97% ;
+    }
+    98% 
+    {
+      width: 98%;
+    }
+    99% 
+    {
+      width: 99% ;
+    }
+    100% 
+    {
+      width: 100%;
+    }
+    
+  }
+  .progress-bar {
+    border-radius: 60px;
+    
+    width: 100%;
+    border-width: 1px;
+  }
+  .progress-bar span {
+    display: block;
+  }
+  .bar {
+    background: #f7f7f7;;
+  }
+  .progress {
+    animation: loader 4s ease-in;
+    background-color: #770000;
+    height: 10px;
+    width: 0;
+  }
+  .progress-bar {
+    left: 50%;
+    max-width: 50%;
+    position: absolute;
+    top: 80%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+
+  .container
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+  }
+  

@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Roboto&display=swap');
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #080808;
+    overflow-x: hidden;
+}
+
+nav
+{
+    font-family: 'Roboto Black', sans-serif;
+    position: fixed;
+}
+
+
+#fullLogo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fill 1s ease forwards 1.5s;
+    width: 1000px;
+    height: 100%;
+}
+
+#brands
+{
+    position: absolute;
+    top: -250px;
+}
+
+.brandsSection
+{
+    position: relative;
+    top: 100px;
+}
+.brandsBackground
+{
+    background-color: #f7f7f7;
+    height: 1200px;
+    width: 2000px;
+}
+
+.brandsHeading
+{
+    font-family: 'Roboto Thin', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+.brandsRow
+{
+    position: relative;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+}
+
+.nikeDiv
+{
+    height: 300px;
+    width: 300px;
+    background-image: url("logos/nike.png");
+    background-size: 300px 300px;
+}
+
+
+.nikeDiv:hover
+{
+    background: url("animations/nike.gif");
+    background-size: 300px 300px;
+}
+
+.adidasDiv
+{
+    height: 300px;
+    width: 300px;
+    background-image: url("logos/adidas.jpg");
+    background-size: 300px 300px;
+    z-index: 3;
+}
+
+.adidasDiv:hover
+{
+    background-image: url("animations/adidas.gif");
+    background-size: 300px 300px;
+}
+
+.newbalanceDiv
+{
+    height: 300px;
+    width: 300px;
+    background-image: url("logos/newbalance.png");
+    background-size: 300px 300px;
+}
+
+
+.newbalanceDiv:hover
+{
+    background-image: url("animations/newbalance.gif");
+    background-size: 300px 300px;
+}
+
+#sports
+{
+    position: absolute;
+    top: -150px;
+}
+
+.sportsSection
+{
+    position: relative;
+    top: 300px;
+}
+.sportsBackground
+{
+    background-color: #f7f7f7;
+    height: 1200px;
+    width: 2000px;
+}
+.sportsHeading
+{
+    font-family: 'Roboto Thin', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+.sportsRow
+{
+    position: relative;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width: 768px)
+{
+    .sportsRow
+{
+    position: relative;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.sportsBackground
+{
+    background-color: #f7f7f7;
+    height: 2400px;
+    width: 2000px;
+}
+}
+.sportName
+{
+    font-size: 20px;
+}
+.cricket
+{
+  color: #f7f7f7;
+}
+
+#cricket
+{
+    height: 500px;
+    width: 280px;
+}
+.cricket:hover
+{
+    background-color: transparent;
+    font-family: 'Roboto Black', sans-serif;
+    color: #080808;
+    transition: 0.5s;
+    transition-delay: -0.1s;
+    font-size: 30px;
+}
+
+.basketball
+{ 
+    color: #f7f7f7;
+}
+
+.basketball:hover
+{
+    background-color: transparent;
+    font-family: 'Roboto Black', sans-serif;
+    color: #080808;
+    transition: 0.5s;
+    transition-delay: -0.1s;
+    font-size: 30px;
+}
+
+#basketball
+{
+    height: 530px;
+    width: 350px;
+}
+
+.tennis
+{
+   color: #f7f7f7;
+}
+
+.tennis:hover
+{
+    background-color: transparent;
+    font-family: 'Roboto Black', sans-serif;
+    color: #080808;
+    transition: 0.5s;
+    transition-delay: -0.1s;
+    font-size: 30px;
+}
+
+#tennis
+{
+    height: 600px;
+    width: 300px;
+    margin-top: -50px;
+}
+
+.soccer
+{
+   color: #f7f7f7;
+}
+
+.soccer:hover
+{
+    background-color: transparent;
+    font-family: 'Roboto Black', sans-serif;
+    color: #080808;
+    transition: 0.5s;
+    transition-delay: -0.1s;
+    font-size: 30px;
+}
+
+#soccer
+{
+    height: 500px;
+    width: 500px;
+}
+
+#contact
+{
+    position: absolute;
+    top: 2550px;
+}
+.contactBackground
+{
+    background-color: #f7f7f7;
+    height: 1200px;
+    width: 2000px;
+}
+
+.contactHeading
+{
+    font-family: 'Roboto Thin', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+#about
+{
+    position: absolute;
+    top: 3900px;
+}
+.aboutHeading
+{
+    font-family: 'Roboto Thin', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+.aboutBackground
+{
+    background-color: #f7f7f7;
+    height: 520px;
+    width: 2000px;
+}
+
+.aboutParagraph
+{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.footerDiv
+{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 50px;
+    background-color: #f7f7f7;
+}
